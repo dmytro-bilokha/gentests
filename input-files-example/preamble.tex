@@ -1,0 +1,48 @@
+\documentclass[11pt,a4paper]{extarticle}
+\usepackage[top=1.3cm,bottom=1.3cm,left=1.3cm,right=1.3cm]{geometry}
+\usepackage{mathtext}
+\usepackage {pscyr}
+\usepackage [T2A]{fontenc}
+\usepackage [koi8-u]{inputenc}
+\usepackage [english,russian,ukrainian]{babel}
+\usepackage[pdftex]{graphicx}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage[labelsep=period,justification=raggedright,singlelinecheck=off,skip=2mm,figureposition=bottom,tableposition=top]{caption}
+\usepackage{tabularx}
+\usepackage{amsfonts,amsmath}
+\usepackage{rotating}
+\usepackage{textcomp}
+\usepackage{ifthen}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{lcd}
+
+\DeclareSymbolFont{T2Aletters}{T2A}{cmr}{m}{it}
+\newcommand{\textpercent}{\%}
+\addto{\captionsukrainian}{
+	\renewcommand{\tablename}{Таблиця}
+	\renewcommand{\chaptername}{Заняття}
+	\renewcommand{\bibname}{СПИСОК Л╤ТЕРАТУРИ}
+	\renewcommand{\contentsname}{ЗМ╤СТ}}
+
+\captionsetup[figure]{justification=centering,labelsep=period}
+\DeclareCaptionLabelFormat{continued}{Продовження таблиц╕ #2}
+\renewcommand{\rmdefault}{ftm}
+\renewcommand{\theadfont}{\normalsize}
+\setlength{\unitlength}{1mm}
+
+\begin{document}
+\definecolor{Mygray}{gray}{0.75}
+\section*{Тестове завдання \input{shifr}}
+\pagestyle{empty}
+\begin{figure}[htp]
+\center
+\includegraphics[scale=0.8]{Shematic.pdf} \\
+\caption{Схема та дерево ╖╖ графу для анал╕зу}
+\end{figure}
+\textit{Прим╕тка: для схеми прийм╕ть посл╕довн╕сть ребер графу E1 C1 R2 R1 L1 J1.}
+%\setlength{\topsep}{0pt}
+%\setlength{\itemsep}{0pt}
+
