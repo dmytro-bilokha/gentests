@@ -28,7 +28,7 @@ and takes numbers of student's answers from command line argument. On checking
 script shows the number of right answers.
 
 Both scripts are situated in
-[/scripts](https://github.com/dmytro-bilokha/gentests/scripts/).
+[/scripts](https://github.com/dmytro-bilokha/gentests/tree/master/scripts/).
 
 ### Data Preparation
 
@@ -48,7 +48,7 @@ To generate tests one should prepare and put in the working directory such files
 
 All this files and scripts should be putted in the working directory.
 Examples of input files are included in
-[/input-files-example](https://github.com/dmytro-bilokha/gentests/input-files-example/).
+[/input-files-example](https://github.com/dmytro-bilokha/gentests/tree/master/input-files-example/).
 Also, it may be needed to edit constants in the scripts sources. In the
 `gentests.py`:
 
@@ -66,7 +66,7 @@ To generate tests just execute `./gentests.py N` in the working directory,
 where `N` is number of test bunch. If everything is OK, pdf-files with
 tests and answers file (`ansdb.txt`) will be generated.  Examples of
 generated tests are included in
-[/output-files-example](https://github.com/dmytro-bilokha/gentests/output-files-example/).
+[/output-files-example](https://github.com/dmytro-bilokha/gentests/tree/master/output-files-example/).
 
 ### Test Checking
 
